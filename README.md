@@ -8,5 +8,5 @@ A collection of JSON data files that can be fetched using the Fetch API, availab
 ### Browser DevTools (Console)
 
 ```
-books = await import('https://diraneyya.github.io/json-resources/books.mjs')
+books = await import('https://diraneyya.github.io/json-resources/books.mjs').default;
 ```
