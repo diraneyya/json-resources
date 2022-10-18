@@ -25,6 +25,8 @@ type BookDatabase = BookDatabaseEntry[];
 
 ### Browser DevTools (Console)
 
+Navigate to [this page](https://diraneyya.github.io/json-resources/) first _before launching the DevTools' Console_:
+
 ```
 books_resource = await fetch('https://diraneyya.github.io/json-resources/books.json');
 books_database = await books_resource.json();       /* this is of type BookDatabase */
